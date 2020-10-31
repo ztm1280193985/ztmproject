@@ -1,0 +1,192 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.my_header,.my_footer{
+ 	width: 100%;
+ 	border: 0;
+ }
+ .nav{
+ 	background: #0066CC;
+ 	width: 100%;
+ 	height: 70px;
+ 	margin-top: -75px;
+ }
+ .nav ul{
+ 	display: flex;
+ 	list-style-type: none;
+ 	margin-left: 80px;
+ }
+ .nav ul li{
+ 	margin-left: 40px;
+ 	font-size: 18px;
+ 	font-weight: bold;
+ 	line-height: 50px;
+ }
+ .nav ul li:hover{
+ 	background-color: skyblue;
+ 	border-bottom: 3px solid purple;
+ 	padding-bottom: 17px;
+ 	transition: all 2s;
+ }
+ .nav ul li:active{
+ 	background-color: yellow;
+ }
+ .nav ul li a{
+ 	text-decoration: none;
+ 	color: white;
+ }
+ #title{
+ 	 width: 100%;
+ 	 height: 380px;
+ 	 background: url(../img/list-background.jpg);
+ 	 background-size: 100% 100%;
+ 	 margin-top: 10px;
+ 	 position: relative;
+ }
+ #title>p{
+ 	 font-size: 25px;
+ 	 color: white;
+ 	 position: absolute;
+ }
+ #title p:first-child{
+ 	 top: 60px;
+ 	 left: 150px;
+ }
+ #title p:last-child{
+ 	 top: 100px;
+ 	 left: 150px;
+ }
+ #text_title{
+	 width: 1300px;
+	 margin: 0 auto;
+ }
+ #text_title>h1{
+	 text-align: center;
+	 margin-top: 150px;
+ }
+ .text_1{
+	 text-align: center;
+	 margin-top: 50px;
+	 color: #ccc;
+	 font-size: 18px;
+ }
+ .text_2{
+	 text-align: center;
+	 margin-top: 50px;
+	 color: blueviolet;
+	 font-size: 17px;
+ }
+ .parent{
+	 width: 1300px;
+	 display: flex;
+	 margin:0 auto;
+	 margin-top: 100px;
+ }
+ .parent>div{
+	 width: 282px;
+	 height: 220px;
+	 margin-left: 100px;
+	 overflow: hidden;
+ }
+ .parent_img:hover{
+	 animation: big 1s linear forwards;
+ }
+ @keyframes big{
+ 	from{
+ 		transform: scale(1.1);
+ 	}
+ 	50%{
+ 		transform: scale(1.15);
+ 	}
+ 	to{
+ 		transform: scale(1.2);
+ 	}
+ }
+ #container{
+	 background: url(../img/about_container.jpg) no-repeat;
+	 width: 100%;
+	 height: 500px;
+	 background-size: 100% 100%;
+	 margin-top: 200px;
+	 position: relative;
+ }
+ .container_text1{
+	 font-size: 30px;
+	 text-align: right;
+	 right: 100px;
+	 top: 100px;
+	 position: absolute;
+ }
+ .container_text2{
+	 width: 250px;
+	 font-size: 15px;
+	 text-align: right;
+	 position: absolute;
+	 display:inline-block;
+	 right: 100px;
+	 top: 170px;
+	 color: purple;
+ }
+ #container>a{
+	 position: absolute;
+	 right: 100px;
+	 top: 350px;
+	 display: block;
+	 width: 100px;
+	 height: 50px;
+	 font-size: 18px;
+	 border-radius: 5px;
+	 background-color: blue;
+	 color: white;
+	 text-decoration: none;
+	 line-height: 50px;
+	 text-align: center;
+ }
+ #container>a:hover{
+	 opacity: 0.7;
+ }
+ .team{
+	 width: 1300px;
+	 height: 400px;
+	 display: flex;
+	 margin: 0 auto;
+	  margin-top: 150px;
+ }
+ .team>div{
+	 margin-left: 50px;
+	 text-align: center;
+ }
+ .team_1{
+	 width: 257.83px;
+	 height: 310px;
+	 overflow: hidden;
+	 border:2px solid yellow;
+	 box-shadow:5px 5px 5px yellow,5px -5px 5px yellow,-5px 5px 5px yellow,-5px -5px 5px yellow;
+ }
+ .team_2>p{
+	 margin-top: 25px;
+	 color: purple;
+ }
+ .team_img{
+	 width: 257.83px;
+	 height: 310.83px;
+ }
+ .team_img:hover{
+ 	 animation: bigger 1s linear forwards;
+ }
+ @keyframes bigger{
+ 	from{
+ 		transform: scale(1.1);
+ 	}
+ 	50%{
+ 		transform: scale(1.15);
+ 	}
+ 	to{
+ 		transform: scale(1.2);
+ 	}
+ }
+ .my_footer{
+ 	 margin-top: 100px;
+ 	 height: 400px;
+ }
